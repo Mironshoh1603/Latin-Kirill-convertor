@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(142, 165, 214, 0.794);
+}
+main {
+  background-color: rgb(221, 210, 55);
+  width: 60vw;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+}
+.section-1,
+.section-2 {
+  width: 48%;
+  text-align: center;
+}
+.section-1 textarea,
+.section-2 textarea {
+  width: 80%;
+  height: 70%;
+  overflow: auto;
+  font-size: 20px;
+  padding: 10px;
+  border-style: none;
+  appearance: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+.tw-menu-btn-image {
+  width: 5%;
+}
+.textArea-2 {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+.tw-menu-btn-image svg {
+  width: 100%;
+}
+/* overflow: auto hidden; ; padding-top: 2px; height: 400px; */
